@@ -11,9 +11,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Implement Edit Text"
-        android:textSize="28sp"
+        android:text="Edit Text and Page Navigation"
+        android:textSize="25sp"
         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Implemented"
+        android:textSize="25sp"
+        />
+
     <EditText
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
@@ -41,5 +49,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Submit Class"/>
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="Your name is ______"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>

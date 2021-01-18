@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ShowClassActivity">
+
+    <TextView
+        android:id="@+id/tv_class_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="so your class is"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Section"
+        />
+    <Button
+        android:id="@+id/btn_submit_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="submit Section"
+        />
+</LinearLayout>
