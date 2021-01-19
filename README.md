@@ -1,5 +1,5 @@
 # ImplementEditText
-  A small project to showcase how a dynamic progressbar work.
+  A small project to showcase how edit text and page navigation with data work.
 
 
 # Demo
